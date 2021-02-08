@@ -64,7 +64,7 @@ public class TestLogin {
 
 	@When("User close browser")
 	public void user_close_browser() {
-		driver.close();
+		driver.quit();
 	}
 
 
