@@ -30,6 +30,9 @@ public class StepAddCustomer {
 		add.setUsername(user);
 		add.setPassword(pass);
 		add.userLogin();
+		String title = driver.getTitle();
+		System.out.println(title);
+		
 	}
 
 	@When("User in the Dashboard")
