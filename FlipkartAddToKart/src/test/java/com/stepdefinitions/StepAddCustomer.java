@@ -82,7 +82,7 @@ public class StepAddCustomer extends BaseClass {
 		if(pageSource.contains("The new customer has been added successfully.")) {
 			
 			System.out.println("Customer added successfully");
-			
+			System.out.println("Added Successfully");
 		}
 		
 	}
