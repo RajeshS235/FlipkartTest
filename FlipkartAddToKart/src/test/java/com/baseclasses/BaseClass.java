@@ -6,5 +6,9 @@ public class BaseClass {
 	
 	public WebDriver driver;
 	
+public void test() {
+System.out.println("Hello");
+}
+	
 	
 }
