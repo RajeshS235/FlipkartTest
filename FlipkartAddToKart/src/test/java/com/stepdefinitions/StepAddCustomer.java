@@ -62,6 +62,8 @@ public class StepAddCustomer extends BaseClass {
 		add.companyName("qa");
 		add.taxExampt();
 		add.newSettler("Your store name");
+		
+		System.out.println("added");
 
 	}
 
